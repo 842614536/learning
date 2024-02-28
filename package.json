@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "ts-dev说明": "nodemon 监控文件变化的包  watch指定监控的文件目录  -e指定监控文件后缀",
+    "ts-dev": "nodemon --watch ts -e ts --exec ts-node ts/语法"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2"
+  }
+}
